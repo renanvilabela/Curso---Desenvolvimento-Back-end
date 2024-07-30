@@ -1,2 +1,11 @@
 "use strict";
-console.log("dale rato loko");
+//console.log("dale rato loko");
+let nome = "Renan Vila Bela";
+let idade = 20;
+const naturalidade = "Olinda-PE";
+const dataNasc = "01/11/2003";
+let cursos = [];
+cursos.push("ADS");
+cursos.push("Design Future Front-End");
+cursos.push("Js do Básico ao Avançado");
+cursos.push("Curso TypeScript");
