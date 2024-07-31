@@ -19,3 +19,29 @@ cursos.pop();
 cursos.shift();
 
 console.log(cursos);
+
+let ourTuple: [number, boolean, string];
+
+ourTuple = [5, false, 'santa cruz futebol clube'];
+
+console.log(ourTuple);
+
+console.log(ourTuple[2]);
+
+const car: {type: string, model: string, year: number} = {
+    type: "mitsubishi",
+    model: "Lancer",
+    year: 2000
+}
+
+console.table(car)
+
+enum diasDaSemana {
+    domingo = 1,
+    segunda = 2,
+    terça = 3,
+    quarta = 4,
+    quinta = 5,
+    sexta = 6,
+    sábado = 7
+}
