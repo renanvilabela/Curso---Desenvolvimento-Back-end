@@ -45,3 +45,49 @@ enum diasDaSemana {
     sexta = 6,
     sábado = 7
 }
+
+interface Rectangle {
+    height: number,
+    width: number
+  }
+  
+  interface ColoredRectangle extends Rectangle {
+    color: string
+  }
+  
+  const coloredRectangle: ColoredRectangle = {
+    height: 20,
+    width: 10,
+    color: "red"
+  };
+
+  class Genero {
+    private nome: string;
+
+    constructor(nome: string){
+        this.nome = nome;
+    }
+  }
+
+  let genero1: Genero = new Genero("Drama");
+  console.table(genero1);
+
+  class Filme {
+
+    private titulo: string;
+    private duracao: number;
+    private preco: number;
+    private genero: Genero;
+
+
+    constructor(titulo: string, duracao: number, preco: number, geneco: Genero) {
+        this.titulo = titulo;
+        this.duracao = duracao;
+        this.preco = preco;
+        this.genero = geneco;
+    }
+    
+  }
+
+  let primeiroFilme: Filme = new Filme("300", 182, 3.5, genero1);
+  console.table(primeiroFilme);
